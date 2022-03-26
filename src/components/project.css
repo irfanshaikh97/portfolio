@@ -1,0 +1,40 @@
+.project-parent{
+    height: 100vh;
+    width: 100vw;
+    background-color: #E6DACE;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+
+.project-body{
+background-color: #FFFFFF;
+width: 700px;
+margin-top: 50px;
+margin-bottom: 50px;
+font-family: 'MadeFor', sans-serif;
+text-align: center;
+}
+
+.project-title{
+    margin-bottom: 5px;
+    color:  #0050FF;
+}
+
+.project-subtitle{
+    margin-top: 0;
+}
+
+@media screen and (max-width: 600px){
+    .project-body{
+        width: 90%;
+        font-size: 82%;
+        font-weight: 400;
+        /* padding: 5px 5px 10px 5px; */
+    }
+
+    .project-title-mobile{
+        padding-top: 20px;
+    }
+}

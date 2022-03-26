@@ -1,0 +1,63 @@
+.card2-body{
+    background-color: #FFFFFF;
+    height: 400px;
+    width: 700px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    font-family: 'MadeFor', sans-serif;
+}
+
+.skills{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    align-items: flex-start;
+    padding-left: 10px;
+    line-height: 50px;
+    margin-left: 15px;
+}
+
+
+.skills li{
+    font-size: 130%;
+    list-style:none;
+    font-weight: 300;  
+    flex-basis: 30%;
+    text-align: left;
+}
+
+.languages{
+    display: flex; 
+    justify-content: flex-start;
+    padding-top: 20px;
+    
+}
+
+.languages li{
+    list-style: none;
+    font-size: 130%;
+    font-weight: 300;
+    flex-basis: 20%;
+}
+
+.span-list{
+    color: #0050FF;
+    margin-right: 15px;
+    font-size: 25px;
+}
+
+@media screen and (max-width: 600px){
+    .card2-body{
+        width: 90%;
+    }
+    
+    .skills li{
+        flex-basis: 40%;
+        font-size: 17px;
+    }
+
+    .languages li{
+        flex-basis: 50%;
+        font-size: 17px;
+    }
+}

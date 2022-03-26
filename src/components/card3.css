@@ -1,0 +1,67 @@
+.card3-body{
+    background-color: #FFFFFF;
+    width: 700px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    font-family: 'MadeFor', sans-serif;
+}
+
+.interpersonal-skills{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    align-items: flex-start;
+    padding-left: 10px;
+    line-height: 50px;
+    margin-left: 15px;
+}
+
+
+.interpersonal-skills li{
+    
+    font-size: 122%;
+    list-style:none;
+    font-weight: 300;  
+    flex-basis: 30%;
+    text-align: left;
+}
+
+.hobbies{
+    display: flex; 
+    justify-content: flex-start;
+    padding-top: 20px;
+    padding-bottom: 50px;
+    
+}
+
+.hobbies li{
+    list-style: none;
+    font-size: 122%;
+    font-weight: 300;
+    flex-basis: 30%;
+    margin-left: 10px;
+}
+
+.span-list{
+    color: #0050FF;
+    margin-right: 15px;
+    font-size: 25px;
+}
+
+
+@media screen and (max-width: 600px){
+    .card3-body{
+        width: 90%;
+    }
+
+    .interpersonal-skills li{
+        flex-basis: 100%;
+        /* font-size: 16px; */
+    }
+
+    .hobbies li{
+        flex-basis: 100%;
+        /* font-size: 120%; */
+    }
+    
+}

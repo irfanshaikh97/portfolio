@@ -1,0 +1,2 @@
+var tweet = prompt("Please compose your tweet");
+alert(prompt("Please compose your tweet"));

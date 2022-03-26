@@ -1,0 +1,23 @@
+.education-body{
+    background-color: #FFFFFF;
+    height: 420px;
+    width: 700px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    font-family: 'MadeFor', sans-serif;
+}
+
+.year{
+    color: #0050FF;
+    padding-top: 8px;
+}
+
+.p-school{
+    padding-bottom: 8px;
+}
+
+@media screen and (max-width: 600px){
+    .education-body{
+        width: 90%;
+    }
+}

@@ -1,0 +1,21 @@
+.contact{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    font-family: 'MadeFor',sans-serif;
+    background-color: #ffffff;
+}
+
+.copyright{
+  align-self: center;
+  padding-left: 15px;
+}
+
+.contact-1{
+    display: flex;
+    text-align: center;
+}
+
+.footer-att{
+  padding: 5px 15px;
+}

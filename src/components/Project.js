@@ -18,7 +18,13 @@ function Project() {
 
          <h2 className='project-title project-title-mobile'>Todo's List</h2>
          <h6 className='project-subtitle'>Tasks Manager</h6>
-         <p></p>
+         <p>Google Clone is developed using React JS.
+            It uses the Google Search API to fetch<br/>
+            the results from the Google Server and
+            render it on the viewers screen.The user<br/>
+            can search from the categories such as
+            Images ,Videos ,Web Links, News,etc.
+         </p>
          <p>https://google.com</p>
 
       </div>

@@ -14,7 +14,7 @@ function Project() {
             can search from the categories such as
             Images ,Videos ,Web Links, News,etc.
          </p>
-         <p>https://google.com</p>
+         <p>https://irfanshaikh97.github.io/google-search</p>
 
          <h2 className='project-title project-title-mobile'>Todo's List</h2>
          <h6 className='project-subtitle'>Tasks Manager</h6>

@@ -2,7 +2,7 @@ import React from 'react'
 import Card2 from './Card2';
 import Card1 from './Card1';
 import Card3 from './Card3';
-import Project from './Project';
+// import Project from './Project';
 import './resume.css';
 
 function Resume() {
@@ -14,7 +14,7 @@ function Resume() {
        <Card1 />
        <Card2 />
        <Card3 />
-       <Project />
+       {/* <Project /> */}
     </div>
   )
 }
